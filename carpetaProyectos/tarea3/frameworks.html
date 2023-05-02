@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="frameworks.css">
+    <title>Tarea Frameworks</title>
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Chistes Basados de Dani</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <a class="mdl-navigation__link" href="">Chistes de Programadores</a>
+                    <a class="mdl-navigation__link" href="">Chistes de StarWars</a>
+                    <a class="mdl-navigation__link" href="">Memes de Programación</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Title</span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link" href="">Chistes de Programadores</a>
+                <a class="mdl-navigation__link" href="">Chistes de StarWars</a>
+                <a class="mdl-navigation__link" href="">Memes de Programación</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+                <div class="mdl-cell mdl-cell--12-col bienvenida">
+                    <img src="./assets/logoDani.png" alt="" width="90px" height="90px">
+                    <h1>Página de Chistes Basados</h1>
+                    <p>¡Bienvenidos a nuestra página de chistes de programadores! Si eres un amante de la programación y
+                        del humor negro, estás en el lugar adecuado. Aquí encontrarás una selección de los chistes más
+                        divertidos y sarcásticos sobre el mundo de la programación, que seguramente te sacarán más de
+                        una sonrisa. Desde chistes sobre el famoso error 404, hasta bromas sobre el famoso "Hello
+                        World", nuestra colección de chistes de programadores está garantizada para hacerte reír, aunque
+                        a veces pueda ser un poco oscura. Prepárate para reír, y si eres un programador, ¡asegúrate de
+                        no tomar nada personalmente!</p>
+                </div>
+                <div class="mdl-grid cards">
+                    <div class="mdl-cell mdl-cell--4-col card">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Welcome</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Mauris sagittis pellentesque lacus eleifend lacinia...
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                    Get Started
+                                </a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col card">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Welcome</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Mauris sagittis pellentesque lacus eleifend lacinia...
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                    Get Started
+                                </a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdl-cell mdl-cell--4-col card">
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                            <div class="mdl-card__title">
+                                <h2 class="mdl-card__title-text">Welcome</h2>
+                            </div>
+                            <div class="mdl-card__supporting-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Mauris sagittis pellentesque lacus eleifend lacinia...
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                    Get Started
+                                </a>
+                            </div>
+                            <div class="mdl-card__menu">
+                                <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                    <i class="material-icons">share</i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-cell--12-col formulario">
+                    <h2>Contáctanos</h2>
+                    <p>Ingresa Nombre:</p>
+                    <!-- Simple Textfield -->
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="sample1">
+                            <label class="mdl-textfield__label" for="sample1">Text...</label>
+                        </div>
+                    </form>
+                    <p>Ingresa Email:</p>
+                    <!-- Simple Textfield -->
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="email" id="sample1">
+                            <label class="mdl-textfield__label" for="sample1">Text...</label>
+                        </div>
+                    </form>
+
+                    Ingresa Mensaje:
+                    <!-- Simple Textfield -->
+                    <form action="#">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input" type="text" id="sample1">
+                            <label class="mdl-textfield__label" for="sample1">Text...</label>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="mdl-mini-footer">
+        <div class="mdl-mini-footer__left-section">
+          <div class="mdl-logo">Title</div>
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </footer>
+</body>
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</html>

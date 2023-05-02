@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TareaDos</title>
+</head>
+
+<body>
+    <h1>Bienvenido a PelisPlay</h1>
+    <section class="formulario">
+        <form id="formulario1">
+            <label for="nombreDirector">
+                Dame una película y te lo cambio por su director:
+            </label>
+            <select name="opciones" id="opciones">
+                <option value="opcion1">Volver al Futuro</option>
+                <option value="opcion2">Los Cazafantasmas</option>
+                <option value="opcion3">E.T. el Extraterrestre</option>
+                <option value="opcion4">Blade Runner</option>
+                <option value="opcion5">El Imperio Contraataca</option>
+            </select>
+        </form>
+        <button class="primary-button" onclick="seleccion()">Seleccionar</button>
+    </section>
+    <section class="retorno">
+        <div class="item">
+            <p>Nombre:</p>
+            <p id="nombrePelicula"></p>
+        </div>
+        <div class="item">
+            <p>Director:</p>
+            <p id="directorPelicula"></p>
+        </div>
+        <div class="item">
+            <p>Año: </p>
+            <p id="anoPelicula"></p>
+        </div>
+        <div class="item">
+            <p>Disponible: </p>
+            <p id="disponibilidadPelicula"></p>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
