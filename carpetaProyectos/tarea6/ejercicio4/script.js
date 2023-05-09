@@ -17,6 +17,4 @@ function cambiarFoto(){
 
     estadoImg1 = window.getComputedStyle(img1, null).getPropertyValue('display');
     estadoImg2 = window.getComputedStyle(img2, null).getPropertyValue('display');
-    console.log(estadoImg1);
-    console.log(estadoImg2);
 }

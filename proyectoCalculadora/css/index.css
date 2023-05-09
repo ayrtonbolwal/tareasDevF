@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: white;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+  height: 100%;
+}
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.displays {
+  grid-row: 1;
+  grid-column: 1/5;
+
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+#resultDisplay {
+  margin: 0;
+  font-size: 2rem;
+}
+#screenDisplay {
+  margin: 0;
+  font-size: 2rem;
+}
+.botones {
+  grid-row: 2;
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+.botones button{
+    background-color: #1E6FD9;
+    color: white;
+}
+.botones button:hover{
+    background-color: #1d65c4;
+}
+.botones #numberZero {
+  grid-column: 1/4;
+}
+
+.operaciones {
+  grid-row: 2;
+  grid-column: 4/5;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+}
+
+.funcionalidades {
+  grid-row: 3;
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+.funcionalidades #borrarTodo{
+    grid-column: 1/4;
+}
+.funcionalidades #borrarElemento{
+    grid-column: 4/7;
+}
+.funcionalidades #igual{
+    grid-column: 7/9;
+    background-color: orangered;
+}
+.funcionalidades #igual:hover{
+    background-color: rgb(214, 58, 1);
+}
+.funcionalidades button{
+    background-color: #1e3b60;
+    color: white;
+}
+.funcionalidades button:hover{
+    background-color: #182f4e;
+}
